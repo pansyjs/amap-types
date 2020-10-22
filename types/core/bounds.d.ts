@@ -1,3 +1,6 @@
+
+/// <reference types="./lngLat" />
+
 declare namespace AMap {
     class Bounds {
         /**
