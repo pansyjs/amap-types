@@ -1,3 +1,6 @@
+/// <reference types="../common" />
+/// <reference types="../overlay/overlay" />
+
 declare namespace AMap {
     namespace InfoWindow {
         interface EventMap<I> {

@@ -1,3 +1,5 @@
+/// <reference types="../index" />
+
 type ReferOverlayOptions<O> =
     O extends AMap.BezierCurve ? AMap.BezierCurve.Options
     : O extends AMap.Polyline ? AMap.Polyline.Options

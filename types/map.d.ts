@@ -3,6 +3,7 @@
 /// <reference types="./core/bounds" />
 /// <reference types="./layer/layer" />
 /// <reference types="./layer/tile-layer" />
+/// <reference types="./overlay/overlay" />
 /// <reference types="./view2D" />
 
 declare namespace AMap {

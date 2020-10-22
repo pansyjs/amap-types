@@ -1,3 +1,6 @@
+/// <reference types="../common" />
+/// <reference types="./circle" />
+
 declare namespace AMap {
   namespace CircleMarker {
     interface Options {

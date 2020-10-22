@@ -1,3 +1,5 @@
+/// <reference types="./common" />
+
 declare namespace AMap {
     namespace convertFrom {
         interface Result {

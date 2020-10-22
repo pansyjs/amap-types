@@ -1,5 +1,6 @@
 /// <reference types="./core/bounds" />
 /// <reference types="./core/lngLat" />
+/// <reference types="./common" />
 
 declare namespace AMap {
   class ArrayBounds {
