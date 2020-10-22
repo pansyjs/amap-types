@@ -1,3 +1,7 @@
+/// <reference types="../core/size" />
+/// <reference types="../core/lngLat" />
+/// <reference types="../core/pixel" />
+
 declare namespace AMap {
     namespace DomUtil {
         /**

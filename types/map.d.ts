@@ -1,16 +1,19 @@
 /// <reference types="./common" />
 /// <reference types="./common/event" />
 /// <reference types="./core/bounds" />
+/// <reference types="./layer/layer" />
+/// <reference types="./layer/tile-layer" />
+/// <reference types="./view2D" />
 
 declare namespace AMap {
   namespace Map {
-      type Feature = 'bg' | 'point' | 'road' | 'building';
-      type ViewMode = '2D' | '3D';
+    type Feature = 'bg' | 'point' | 'road' | 'building';
+    type ViewMode = '2D' | '3D';
       interface Options {
-          /**
-           * 地图视口，用于控制影响地图静态显示的属性
-           */
-          view?: View2D;
+        /**
+         * 地图视口，用于控制影响地图静态显示的属性
+         */
+        view?: View2D;
           /**
            * 地图图层数组，数组可以是图层 中的一个或多个，默认为普通二维地图
            */
@@ -560,6 +563,7 @@ declare namespace AMap {
        * @param pitch 俯仰角
        */
       setPitch(pitch: number): void;
+
       /**
        * 获取俯仰角
        */
