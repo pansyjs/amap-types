@@ -1,6 +1,20 @@
+/// <reference path="../index.d.ts" />
+
 declare namespace AMap {
     namespace Polygon {
-        interface EventMap<I = Polygon> extends PathOverlay.EventMap<I> { }
+        interface EventMap<I = Polygon> extends PathOverlay.EventMap<I> {
+          click: MapsEvent<'click', I>;
+          dblclick: MapsEvent<'dblclick', I>;
+          rightclick: MapsEvent<'rightclick', I>;
+          mouseover: MapsEvent<'mouseover', I>;
+          mouseout: MapsEvent<'mouseout', I>;
+          mousedown: MapsEvent<'mousedown', I>;
+          mouseup: MapsEvent<'mouseup', I>;
+          touchstart: MapsEvent<'touchstart', I>;
+          touchmove: MapsEvent<'touchmove', I>;
+          touchend: MapsEvent<'touchend', I>;
+        }
+
         interface Options<ExtraData = any> extends PathOverlay.Options<ExtraData> {
             /**
              * 多边形轮廓线的节点坐标数组

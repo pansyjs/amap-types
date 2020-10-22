@@ -45,27 +45,3 @@
 /// <reference path="overlay/rectangle.d.ts" />
 /// <reference path="overlay/shapeOverlay.d.ts" />
 /// <reference path="overlay/text.d.ts" />
-
-/// <reference types="amap-js-api-arrival-range" />
-/// <reference types="amap-js-api-autocomplete" />
-/// <reference types="amap-js-api-city-search" />
-/// <reference types="amap-js-api-control-bar" />
-/// <reference types="amap-js-api-district-search" />
-/// <reference types="amap-js-api-driving" />
-/// <reference types="amap-js-api-geocoder" />
-/// <reference types="amap-js-api-geolocation" />
-/// <reference types="amap-js-api-heatmap" />
-/// <reference types="amap-js-api-indoor-map" />
-/// <reference types="amap-js-api-line-search" />
-/// <reference types="amap-js-api-map-type" />
-/// <reference types="amap-js-api-map3d" />
-/// <reference types="amap-js-api-overview" />
-/// <reference types="amap-js-api-place-search" />
-/// <reference types="amap-js-api-riding" />
-/// <reference types="amap-js-api-scale" />
-/// <reference types="amap-js-api-station-search" />
-/// <reference types="amap-js-api-tool-bar" />
-
-/// <reference types="./circle-marker" />
-/// <reference types="./marker-clusterer" />
-/// <reference types="./mouse-tool" />

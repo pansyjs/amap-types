@@ -1,3 +1,5 @@
+/// <reference path="../index.d.ts" />
+
 declare namespace AMap {
     namespace Buildings {
         interface Options extends Layer.Options {

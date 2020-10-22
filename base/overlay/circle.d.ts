@@ -1,3 +1,5 @@
+/// <reference path="../index.d.ts" />
+
 declare namespace AMap {
     namespace Circle {
         interface EventMap<I = Circle> extends ShapeOverlay.EventMap<I> {

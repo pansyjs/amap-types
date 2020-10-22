@@ -1,3 +1,5 @@
+/// <reference path="../index.d.ts" />
+
 declare namespace AMap {
   namespace CircleMarker {
     interface Options {
@@ -31,7 +33,7 @@ declare namespace AMap {
   }
 
   class CircleMarker<ExtraData = any> extends Circle<ExtraData> {
-    constructor(opts: CircleMarkerOptions);
+    constructor(opts: CircleMarker.Options);
     /** 设置圆点的半径 */
     setRaius(radius: number): void;
     /** 获取圆点中心 */
@@ -39,16 +41,15 @@ declare namespace AMap {
     /** 获取圆点的半径 */
     getRadius(): number;
     /** 修改圆点标记的属性（样式风格，包括轮廓线、填充色等。属性详情参看CircleMarkerOptions列表） */
-    setOptions(optsArg: CircleMarkerOptions): void;
+    setOptions(optsArg: CircleMarker.Options): void;
     /** 判断指定点坐标是否在圆内 */
-    contains(point: LngLatLike): void;
-    /** 获取圆点的属性 */
-    getOptions(): CircleMarkerOptions;
+    contains(point: LocationValue): boolean;
     /** 获取用户自定义属性 */
     getExtData(): any;
     /** 设置用户自定义属性，支持JavaScript API任意数据类型 */
     setExtData(extData: any): void;
     /** 获取圆形的属性 */
-    getOptions(): CircleMarkerOptions;
+    // @ts-ignore
+    getOptions(): CircleMarker.Options;
   }
 }

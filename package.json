@@ -9,5 +9,8 @@
   "publishConfig": {
     "registry": "https://registry.npmjs.org",
     "access": "public"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.3"
   }
 }

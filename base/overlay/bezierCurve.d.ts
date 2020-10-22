@@ -1,3 +1,5 @@
+/// <reference path="../index.d.ts" />
+
 declare namespace AMap {
     namespace BezierCurve {
         interface EventMap<I = BezierCurve> extends Polyline.EventMap<I> { }
