@@ -1,3 +1,5 @@
+/// <reference path="./index.d.ts" />
+
 declare namespace AMap {
   /**
    * 二维地图显示视口，用于定义二维地图静态显示属性
