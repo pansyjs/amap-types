@@ -4,7 +4,7 @@
   "repository": "git@github.com:pansyjs/amap-types.git",
   "author": "wangxingkang <156148958@qq.com>",
   "license": "MIT",
-  "main": "index.d.ts",
+  "main": "index.js",
   "types": "index.d.ts",
   "files": [
     "/types"
