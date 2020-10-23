@@ -1,6 +1,4 @@
-/// <reference types="../core/size" />
-/// <reference types="../core/lngLat" />
-/// <reference types="../core/pixel" />
+/// <reference path="./index.d.ts" />
 
 declare namespace AMap {
     namespace DomUtil {

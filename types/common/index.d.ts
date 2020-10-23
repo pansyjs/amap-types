@@ -1,10 +1,8 @@
 /// <reference types="../core/size" />
 /// <reference types="../core/lngLat" />
 /// <reference types="../core/pixel" />
-/// <reference types="./dom-util" />
 /// <reference types="./event" />
 /// <reference types="./type-util" />
-/// <reference types="./geometry-util" />
 
 declare namespace AMap {
   type SizeValue = Size | [number, number];

@@ -20,6 +20,7 @@
 /// <reference path="./overlay/context-menu.d.ts" />
 /// <reference path="./overlay/ellipse.d.ts" />
 /// <reference path="./overlay/geoJSON.d.ts" />
+/// <reference path="./overlay/ground-image.d.ts" />
 /// <reference path="./overlay/icon.d.ts" />
 /// <reference path="./overlay/label-marker.d.ts" />
 /// <reference path="./overlay/marker-shape.d.ts" />
@@ -33,11 +34,39 @@
 /// <reference path="./overlay/shape-overlay.d.ts" />
 /// <reference path="./overlay/text.d.ts" />
 
+/// <reference path="./wms/flexible.d.ts" />
+/// <reference path="./wms/wms.d.ts" />
+/// <reference path="./wms/wmts.d.ts" />
+
 /// <reference path="./info-window/info-window.d.ts" />
+
+/// <reference path="./route-search/arrival-range.d.ts" />
+/// <reference path="./route-search/driving.d.ts" />
+/// <reference path="./route-search/riding.d.ts" />
+
+/// <reference path="./search/autocomplete.d.ts" />
+/// <reference path="./search/district-search.d.ts" />
+/// <reference path="./search/line-search.d.ts" />
+/// <reference path="./search/place-search.d.ts" />
+/// <reference path="./search/station-search.d.ts" />
+
+/// <reference path="./indoor-map/index.d.ts" />
+
+/// <reference path="./control/control-bar.d.ts" />
+/// <reference path="./control/map-type.d.ts" />
+/// <reference path="./control/overview.d.ts" />
+/// <reference path="./control/scale.d.ts" />
+/// <reference path="./control/tool-bar.d.ts" />
+
+/// <reference path="./location/city-search.d.ts" />
+/// <reference path="./location/geolocation.d.ts" />
 
 /// <reference path="./array-bounds.d.ts" />
 /// <reference path="./convert-from.d.ts" />
+/// <reference path="./dom-util.d.ts" />
+/// <reference path="./geometry-util.d.ts" />
 /// <reference path="./browser.d.ts" />
 /// <reference path="./map.d.ts" />
+/// <reference path="./plugin.d.ts" />
 /// <reference path="./util.d.ts" />
 /// <reference path="./view2D.d.ts" />

@@ -15,205 +15,205 @@ declare namespace AMap {
          * 地图视口，用于控制影响地图静态显示的属性
          */
         view?: View2D;
-          /**
-           * 地图图层数组，数组可以是图层 中的一个或多个，默认为普通二维地图
-           */
-          layers?: Layer[];
-          /**
-           * 地图显示的缩放级别
-           */
-          zoom?: number;
-          /**
-           * 地图中心点坐标值
-           */
-          center?: LocationValue;
-          /**
-           * 地图标注显示顺序
-           */
-          labelzIndex?: number;
-          /**
-           * 地图显示的缩放级别范围
-           */
-          zooms?: [number, number];
-          /**
-           * 地图语言类型
-           */
-          lang?: Lang;
-          /**
-           * 地图默认鼠标样式
-           */
-          defaultCursor?: string;
-          /**
-           * 地图显示的参考坐标系
-           */
-          crs?: 'EPSG3857' | 'EPSG3395' | 'EPSG4326';
-          /**
-           * 地图平移过程中是否使用动画
-           */
-          animateEnable?: boolean;
-          /**
-           * 是否开启地图热点和标注的hover效果
-           */
-          isHotspot?: boolean;
-          /**
-           * 当前地图中默认显示的图层
-           */
-          defaultLayer?: TileLayer;
-          /**
-           * 地图是否可旋转
-           */
-          rotateEnable?: boolean;
-          /**
-           * 是否监控地图容器尺寸变化
-           */
-          resizeEnable?: boolean;
-          /**
-           * 是否在有矢量底图的时候自动展示室内地图
-           */
-          showIndoorMap?: boolean;
-          /**
-           * 在展示矢量图的时候自动展示室内地图图层
-           */
-          // indoorMap?: IndorMap
-          /**
-           * 是否支持可以扩展最大缩放级别
-           */
-          expandZoomRange?: boolean;
-          /**
-           * 地图是否可通过鼠标拖拽平移
-           */
-          dragEnable?: boolean;
-          /**
-           * 地图是否可缩放
-           */
-          zoomEnable?: boolean;
-          /**
-           * 地图是否可通过双击鼠标放大地图
-           */
-          doubleClickZoom?: boolean;
-          /**
-           * 地图是否可通过键盘控制
-           */
-          keyboardEnable?: boolean;
-          /**
-           * 地图是否使用缓动效果
-           */
-          jogEnable?: boolean;
-          /**
-           * 地图是否可通过鼠标滚轮缩放浏览
-           */
-          scrollWheel?: boolean;
-          /**
-           * 地图在移动终端上是否可通过多点触控缩放浏览地图
-           */
-          touchZoom?: boolean;
-          /**
-           * 当touchZoomCenter=1的时候，手机端双指缩放的以地图中心为中心，否则默认以双指中间点为中心
-           */
-          touchZoomCenter?: number;
-          /**
-           * 设置地图的显示样式
-           */
-          mapStyle?: string;
-          /**
-           * 设置地图上显示的元素种类
-           */
-          features?: Feature[] | 'all' | Feature;
-          /**
-           * 设置地图显示3D楼块效果
-           */
-          showBuildingBlock?: boolean;
-          /**
-           * 视图模式
-           */
-          viewMode?: ViewMode;
-          /**
-           * 俯仰角度
-           */
-          pitch?: number;
-          /**
-           * 是否允许设置俯仰角度
-           */
-          pitchEnable?: boolean;
-          /**
-           * 楼块出现和消失的时候是否显示动画过程
-           */
-          buildingAnimation?: boolean;
-          /**
-           * 调整天空颜色
-           */
-          skyColor?: string;
-          /**
-           * 设置地图的预加载模式
-           */
-          preloadMode?: boolean;
-          /**
-           * 为 Map 实例指定掩模的路径，各图层将只显示路径范围内图像
-           */
-          mask?: Array<[number, number]> | Array<Array<[number, number]>> | Array<Array<Array<[number, number]>>>;
-          maxPitch?: number;
-          rotation?: number;
-          forceVector?: boolean;
+        /**
+         * 地图图层数组，数组可以是图层 中的一个或多个，默认为普通二维地图
+         */
+        layers?: Layer[];
+        /**
+         * 地图显示的缩放级别
+         */
+        zoom?: number;
+        /**
+         * 地图中心点坐标值
+         */
+        center?: LocationValue;
+        /**
+         * 地图标注显示顺序
+         */
+        labelzIndex?: number;
+        /**
+         * 地图显示的缩放级别范围
+         */
+        zooms?: [number, number];
+        /**
+         * 地图语言类型
+         */
+        lang?: Lang;
+        /**
+         * 地图默认鼠标样式
+         */
+        defaultCursor?: string;
+        /**
+         * 地图显示的参考坐标系
+         */
+        crs?: 'EPSG3857' | 'EPSG3395' | 'EPSG4326';
+        /**
+         * 地图平移过程中是否使用动画
+         */
+        animateEnable?: boolean;
+        /**
+         * 是否开启地图热点和标注的hover效果
+         */
+        isHotspot?: boolean;
+        /**
+         * 当前地图中默认显示的图层
+         */
+        defaultLayer?: TileLayer;
+        /**
+         * 地图是否可旋转
+         */
+        rotateEnable?: boolean;
+        /**
+         * 是否监控地图容器尺寸变化
+         */
+        resizeEnable?: boolean;
+        /**
+         * 是否在有矢量底图的时候自动展示室内地图
+         */
+        showIndoorMap?: boolean;
+        /**
+         * 在展示矢量图的时候自动展示室内地图图层
+         */
+        // indoorMap?: IndorMap
+        /**
+         * 是否支持可以扩展最大缩放级别
+         */
+        expandZoomRange?: boolean;
+        /**
+         * 地图是否可通过鼠标拖拽平移
+         */
+        dragEnable?: boolean;
+        /**
+         * 地图是否可缩放
+         */
+        zoomEnable?: boolean;
+        /**
+         * 地图是否可通过双击鼠标放大地图
+         */
+        doubleClickZoom?: boolean;
+        /**
+         * 地图是否可通过键盘控制
+         */
+        keyboardEnable?: boolean;
+        /**
+         * 地图是否使用缓动效果
+         */
+        jogEnable?: boolean;
+        /**
+         * 地图是否可通过鼠标滚轮缩放浏览
+         */
+        scrollWheel?: boolean;
+        /**
+         * 地图在移动终端上是否可通过多点触控缩放浏览地图
+         */
+        touchZoom?: boolean;
+        /**
+         * 当touchZoomCenter=1的时候，手机端双指缩放的以地图中心为中心，否则默认以双指中间点为中心
+         */
+        touchZoomCenter?: number;
+        /**
+         * 设置地图的显示样式
+         */
+        mapStyle?: string;
+        /**
+         * 设置地图上显示的元素种类
+         */
+        features?: Feature[] | 'all' | Feature;
+        /**
+         * 设置地图显示3D楼块效果
+         */
+        showBuildingBlock?: boolean;
+        /**
+         * 视图模式
+         */
+        viewMode?: ViewMode;
+        /**
+         * 俯仰角度
+         */
+        pitch?: number;
+        /**
+         * 是否允许设置俯仰角度
+         */
+        pitchEnable?: boolean;
+        /**
+         * 楼块出现和消失的时候是否显示动画过程
+         */
+        buildingAnimation?: boolean;
+        /**
+         * 调整天空颜色
+         */
+        skyColor?: string;
+        /**
+         * 设置地图的预加载模式
+         */
+        preloadMode?: boolean;
+        /**
+         * 为 Map 实例指定掩模的路径，各图层将只显示路径范围内图像
+         */
+        mask?: Array<[number, number]> | Array<Array<[number, number]>> | Array<Array<Array<[number, number]>>>;
+        maxPitch?: number;
+        rotation?: number;
+        forceVector?: boolean;
 
-          // internal
-          baseRender?: 'vw' | 'd' | 'dv' | 'v';
-          overlayRender?: 'c' | 'd';
-          showLabel?: boolean;
-          gridMapForeign?: boolean;
-          logoUrl?: string;
-          logoUrlRetina?: string;
-          copyright?: string;
-          turboMode?: boolean;
-          workerMode?: boolean;
-          // continuousZoomEnable?: boolean;
-          // showFog: boolean;
-          // yaw: number;
-          // scale: number;
-          // detectRetina: number;
-      }
-      interface Status {
-          /**
-           * 是否开启动画
-           */
-          animateEnable: boolean;
-          /**
-           * 是否双击缩放
-           */
-          doubleClickZoom: boolean;
-          /**
-           * 是否支持拖拽
-           */
-          dragEnable: boolean;
-          isHotspot: boolean;
-          /**
-           * 是否开启缓动效果
-           */
-          jogEnable: boolean;
-          /**
-           * 是否支持键盘
-           */
-          keyboardEnable: boolean;
-          /**
-           * 是否支持调整俯仰角
-           */
-          pitchEnable: boolean;
-          resizeEnable: boolean;
-          /**
-           * 是否支持旋转
-           */
-          rotateEnable: boolean;
-          /**
-           * 是否支持滚轮缩放
-           */
-          scrollWheel: boolean;
-          /**
-           * 是否支持触摸缩放
-           */
-          touchZoom: boolean;
-          /**
-           * 是否支持缩放
-           */
-          zoomEnable: boolean;
+        // internal
+        baseRender?: 'vw' | 'd' | 'dv' | 'v';
+        overlayRender?: 'c' | 'd';
+        showLabel?: boolean;
+        gridMapForeign?: boolean;
+        logoUrl?: string;
+        logoUrlRetina?: string;
+        copyright?: string;
+        turboMode?: boolean;
+        workerMode?: boolean;
+        // continuousZoomEnable?: boolean;
+        // showFog: boolean;
+        // yaw: number;
+        // scale: number;
+        // detectRetina: number;
+    }
+    interface Status {
+        /**
+         * 是否开启动画
+         */
+        animateEnable: boolean;
+        /**
+         * 是否双击缩放
+         */
+        doubleClickZoom: boolean;
+        /**
+         * 是否支持拖拽
+         */
+        dragEnable: boolean;
+        isHotspot: boolean;
+        /**
+         * 是否开启缓动效果
+         */
+        jogEnable: boolean;
+        /**
+         * 是否支持键盘
+         */
+        keyboardEnable: boolean;
+        /**
+         * 是否支持调整俯仰角
+         */
+        pitchEnable: boolean;
+        resizeEnable: boolean;
+        /**
+         * 是否支持旋转
+         */
+        rotateEnable: boolean;
+        /**
+         * 是否支持滚轮缩放
+         */
+        scrollWheel: boolean;
+        /**
+         * 是否支持触摸缩放
+         */
+        touchZoom: boolean;
+        /**
+         * 是否支持缩放
+         */
+        zoomEnable: boolean;
       }
       type HotspotEvent<N extends string> = Event<N, {
           /**
