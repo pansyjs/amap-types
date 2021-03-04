@@ -20,7 +20,7 @@
     "@walrus/plugin-release": "1.9.1",
     "@walrus/preset-lint": "1.1.8",
     "husky": "5.0.8",
-    "typescript": "4.2.2"
+    "typescript": "4.2.3"
   },
   "husky": {
     "hooks": {
